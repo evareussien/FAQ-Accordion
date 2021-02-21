@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #1D1E35;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.item-title {
+  color: #4A4B5E;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+
+
+hr {
+  border-top: 1px solid #E7E7E9;
+  margin: 20px 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#AB92BF, #6565E7);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.faq-container {
+  background-color: white;
+  width: 65%;
+  height: 60%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.right-container {
+  width: 50%;
+  overflow: hidden;
+}
+
+.inhoud-right-container {
+  padding: 60px 100px 60px 0;
+}
+
+.bg-images {
+  position: absolute;
+}
+
+
+.float-box {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  z-index: 1;
+}
+
+.illu-woman {
+  position: absolute;
+  left: -80px;
+  top: 50px;
+}
+
+.click-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 10px;
+}
+
+
+.dropdown-text {
+  color: #787887;
+  font-size: 13px;
+  display: none;
+  margin-top: 10px;
+}
+
+
+.icon-arrow {
+  width: 10px;
+  height: 10px;
+}
+
+
+
+button {
+  border:none;
+  background-color: white;
+}
+
+
+.panel {
+   display: none;
+   overflow: hidden;
+}

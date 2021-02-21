@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FAQ Accordion card</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="main-container">
+    <div class="faq-container">
+      <div class="float-box">
+        <img class="illu-box" src="images/illustration-box-desktop.svg" alt="image box desktop">
+      </div>
+      <div class="left-container">
+        <div class="bg-images">
+          <img class="illu-woman" src="images/illustration-woman-online-desktop.svg" alt="image woman desktop">
+        </div>
+      </div>
+
+      <div class="right-container">
+        <div class="inhoud-right-container">
+          <h1>FAQ</h1>
+          <div class="dropdown-container">
+            <div class="dropdown-item">
+              <div class="click-area">
+                <p class="item-title">How many members can I invite?</p>
+                <img class="icon-arrow" src="images/icon-arrow-down.svg" alt="dropdown-arrow">
+              </div>
+
+              <div class="dropdown-text">
+                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="dropdown-item">
+              <div class="click-area">
+                <p class="item-title">What is the maximum file upload size?</p>
+                <img class="icon-arrow" src="images/icon-arrow-down.svg" alt="dropdown-arrow">
+              </div>
+              <div class="dropdown-text">
+                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="dropdown-item">
+              <div class="click-area">
+                <p class="item-title">How do I reset my password?</p>
+                <img class="icon-arrow" src="images/icon-arrow-down.svg" alt="dropdown-arrow">
+              </div>
+              <div class="dropdown-text">
+                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="dropdown-item">
+              <div class="click-area">
+                <p class="item-title">Can I cancel my subscription?</p>
+                <img class="icon-arrow" src="images/icon-arrow-down.svg" alt="dropdown-arrow">
+              </div>
+              <div class="dropdown-text">
+                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+              </div>
+            </div>
+            <hr>
+            <div class="dropdown-item">
+              <div class="click-area">
+                <p class="item-title">Do you provide additional support?</p>
+                <img class="icon-arrow" src="images/icon-arrow-down.svg" alt="dropdown-arrow">
+              </div>
+              <div class="dropdown-text">
+                <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <script>
+  var val = document.getElementsByClassName("click-area");
+  var i;
+  for (j = 0; j < val.length; j++) {
+     val[j].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+           panel.style.display = "none";
+        } else {
+           panel.style.display = "block";
+        }
+     });
+  }
+  </script>
+
+</body>
+
+</html>
